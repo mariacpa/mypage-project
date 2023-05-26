@@ -33,7 +33,6 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .navigation-links {
@@ -102,4 +101,33 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 766px) {
+  .hide-image-mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .mobile-button {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+  }
 }
